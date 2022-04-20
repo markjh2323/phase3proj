@@ -8,3 +8,13 @@ def classify_student_performance(grade):
         return 0
     else:
         return 1
+        
+def above_below_classify(grade):
+    """
+    Function to classify students into above avg or below avg
+    """
+    if grade >= 12:
+        return 1
+    else:
+        return 0
+
